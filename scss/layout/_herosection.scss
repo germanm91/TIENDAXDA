@@ -1,0 +1,40 @@
+// HERO SECTION //
+
+.container .herosection {
+    color: black;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.titulo__hero {
+    font-family: $old-standard;
+    font-size: $xx-large;
+}
+
+.texto__hero {
+    font-family: $old-standard;
+    color: $quick-silver;
+    font-weight: $font-regular;
+    padding-right: 100px;
+}
+
+
+/* PROPIEDADES PARA SIDEBAR */
+
+.container .sidebar {
+    width: auto;
+
+}
+
+.sidebar img {
+    width: 100%;
+    height: 100%;
+}
+
+// PROPIEDADES DEL BOTON//
+
+.herosection .boton {
+    background: white;
+    padding: 10px;
+    font-family: $font-regular;
+}

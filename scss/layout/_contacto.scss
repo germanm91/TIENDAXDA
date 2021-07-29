@@ -1,0 +1,62 @@
+/* PROPIEDADES PARA EL FOOTER */
+
+.container .footer {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .textofooter {
+    width: 90%;
+    background: black;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.footer .widget {
+    width: 10%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo__footer {
+    font-family: $old-standard;
+    font-weight: $font-regular;
+}
+
+.correo__footer {
+    font-family: $old-standard;
+    font-weight: 100;
+}
+
+
+/* POPROPIEDADES PARA EL WIDGET*/
+
+.container .widget {
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+.widget h5 {
+    transform: rotate(90deg);
+    font-family: $old-standard;
+    font-size: $large;
+}
+
+.texto__widget {
+    background: white;
+    color: black;
+    transform: rotate(90deg);
+    height: auto;
+}
